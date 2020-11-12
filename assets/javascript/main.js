@@ -24,6 +24,7 @@ console.log(user)
 user.sayName();
 */
 
+/*
 let  papaCat = {
     colorStyle: "Calico",
     colors: ["white", "grey", "black"],
@@ -57,3 +58,10 @@ papaCat.declaw();
 console.log(papaCat.getAdopted());
 
 console.log(papaCat)
+*/
+for (let i = 1; i<=20; i++) {
+    let numDiv = document.createElement("div");
+    numDiv.append(i)
+    document.body.append(numDiv);
+    console.log(numDiv);
+}
